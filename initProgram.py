@@ -18,7 +18,7 @@ def createDirectory(dirname="h", directory_path=""):
 	else:
 		return directory_path + '/' + dirname
 
-def loadJSONData(json_data, file_path="variables.json"):
+def dumpJSONData(json_data, file_path="variables.json"):
 	"""
 	Here we will load the json data to the variable.json file
 	It will replace any existing file with the updated content
@@ -45,8 +45,18 @@ def readJSONData(file_path="variables.json"):
 	finally:		
 		return __data
 
+def updateJSONData(update_data, json_data=readJSONData()):
+	"""
+		In this function we will be updating the json data into the functions.
+		Here we will only add a new key:value pair not updating any key:value pairs
+	"""
+	for i in update_data:
+		json_data[i] = update_data[i]
+	
+	return json_data
 
-#loadJSONData({'directory_path': createDirectory()})
+
+dumpJSONData({'directory_path': createDirectory()})
 print(readJSONData())
 
 
