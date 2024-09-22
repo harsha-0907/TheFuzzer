@@ -9,7 +9,7 @@ def dns_lookup(domain="", attempts = 0):
 	"""
 	try:
 		if domain == "":
-			raise dns.resolver
+			raise dns.resolver.NoAnswer
 		ips = dns_resolver.resolve(domain, 'A')
 		ipaddresses = [str(ip) for ip in ips]
 		return ipaddresses
@@ -24,11 +24,33 @@ def dns_lookup(domain="", attempts = 0):
 	except Exception as e:
 		return []
 
+def dns_reverse_lookup(ip="0.0.0.0", attempts=0):
+	"""
+		This function is used to perform the reverse-dns lookups. We will not be using it much but could be a good addition. It is not yet complete
+	"""
+	try:
+		if ip == "0.0.0.0":
+			raise dns_resolver.NoAnswer
+		else:
+			answer = dns.reversename.from_address(ip)
+			return answer
+	
+	except (dns_resolver.NXDOMAIN, dns_resolver.NoAnswer):
+		print("Error")
+		return []
+	
+	except (dns_resolver.Timeout):
+		if attempts > 3:
+			return []
+		else:
+			print("Error")
+			return dns_reverse_lookup(ip, attempts + 1)
+	except Exception as e:
+		print("Error", e)
+		return []
 
-domain = "google.com"
-res = dns_lookup(domain)
-json_data = readJSONData()
 
-res = updateJSONData({'ip-addresses': res})
+#ip = "142.250.195.238"
+#res = dns_reverse_lookup(ip)
 
-dumpJSONData(res)
+#print(res)
