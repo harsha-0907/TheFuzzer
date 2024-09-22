@@ -8,3 +8,5 @@ import shutil as shutil
 import json
 import dns as dns
 import dns.resolver as dns_resolver
+import sublist3r as sub
+import socket as socket

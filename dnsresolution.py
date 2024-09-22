@@ -49,8 +49,17 @@ def dns_reverse_lookup(ip="0.0.0.0", attempts=0):
 		print("Error", e)
 		return []
 
+def isDomainAlive(domain_name):
+	if domain_name == "":
+		return False
+	else:
+		target_ip = dns_lookup(domain_name)[0]
+		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		my_endpoint = ("127.0.0.1", 15000)
+		socket.bind(my_endpoint)
 
-#ip = "142.250.195.238"
-#res = dns_reverse_lookup(ip)
+domain = "music.youtube.com"
 
-#print(res)
+res = dns_lookup(domain)
+
+print(res)

@@ -7,6 +7,7 @@
 from packages import *
 from initProgram import *
 from dnsresolution import *
+from subDomainEnum.py import *
 
 class Application():
 	def __init__(self, domain_name):
@@ -32,7 +33,11 @@ if __name__ == "__main__":
 		a = Application(domain_name)
 		print(a.info, a.resume)
 		if not a.resume:
-			print("Process Stopped. Please check your inputs")
+			print("Process Stopped. Please check your input")
+		
+		
+		
+		
 	except IndexError:
 		if len(sys.argv) < 2:
 			print("Domain Name is Empty!!!")

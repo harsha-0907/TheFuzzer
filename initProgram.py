@@ -56,10 +56,23 @@ def updateJSONData(update_data, json_data=readJSONData()):
 	
 	return json_data
 
+def readFileToList(file_path="", seperator='\n'):
+	if file_path == "":
+		return []
+	else:
+		data = None
+		if os.path.exists(file_path):
+			with open(file_path, 'r') as file:
+				data = file.read()
+		
+		lines = [i for i in data.split(seperator)]
+		return lines
+
 
 #dumpJSONData({'directory_path': createDirectory()})
 #print(readJSONData())
 #createDirectory('hi')
 
 
-
+#res = readFileToList("domains.txt")
+#print(res)
