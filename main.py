@@ -35,9 +35,6 @@ if __name__ == "__main__":
 		if not a.resume:
 			print("Process Stopped. Please check your input")
 		
-		
-		
-		
 	except IndexError:
 		if len(sys.argv) < 2:
 			print("Domain Name is Empty!!!")
