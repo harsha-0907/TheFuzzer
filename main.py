@@ -22,8 +22,22 @@ class Application():
 			self.resume = True
 			dir_path = createDirectory(domain_name) + '/'
 			self.info['directory-path'] = dir_path
+			self.info['variables-path'] = dir_path + 'variables.json'
 			dumpJSONData(self.info, dir_path+'variables.json')
 
+	def dumpJSONData(self):
+		"""To update the json in the variables.json file"""
+		try:
+			dumpJSONData(self.info, self.info['variables-path'])
+			return True
+		except Exception as e:
+			return False
+	
+	def updateJSONData(self, data):
+		"""To update the self.info with any new data"""
+		for i in data:
+			self.info[i] = data[i]
+		
 
 if __name__ == "__main__":
 	try:		
@@ -37,7 +51,10 @@ if __name__ == "__main__":
 		print("Domain Found")
 		print("Starting Sub-Domain Enum")
 		subdomains = fetchSubDomains(domain_name) + [domain_name]
-		print(subdomains)
+		a.info['sub-domains'] = subdomains
+		print(a.info)
+		a.dumpJSONData()
+
 		
 	except IndexError:
 		if len(sys.argv) < 2:
@@ -45,5 +62,4 @@ if __name__ == "__main__":
 		else:
 			print("Error")
 	except Exception as e:
-		print("An Error has occured")
-	
+		print("An Error has occured", e)

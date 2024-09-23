@@ -46,7 +46,7 @@ def readJSONData(file_path="variables.json"):
 	finally:		
 		return __data
 
-def updateJSONData(update_data, json_data=readJSONData()):
+def updateJSONDataToFile(update_data, json_data=readJSONData()):
 	"""
 		In this function we will be updating the json data into the functions.
 		Here we will only add a new key:value pair not updating any key:value pairs
