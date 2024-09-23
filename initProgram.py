@@ -64,9 +64,7 @@ def readFileToList(file_path="", seperator='\n'):
 		if os.path.exists(file_path):
 			with open(file_path, 'r') as file:
 				data = file.read()
-			#print(data, len(data))
 			lines = [i for i in data.split(seperator)]
-			#print(lines)
 			if lines != ['']:
 				return lines
 		return []
