@@ -70,7 +70,3 @@ def fetchSubDomains(domain_name, restricted_domains="restricted_domains.txt"):
 	total_subdomains[:] = filterActiveDomains(total_subdomains)
 	return total_subdomains
 	
-res  = fetchSubDomains("tcm-sec.com")
-#res = filterDomains([])
-
-print(len(res))

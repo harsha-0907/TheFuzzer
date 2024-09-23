@@ -7,7 +7,7 @@
 from packages import *
 from initProgram import *
 from dnsresolution import *
-from subDomainEnum.py import *
+from subDomainEnum import *
 
 class Application():
 	def __init__(self, domain_name):
@@ -22,18 +22,22 @@ class Application():
 			self.resume = True
 			dir_path = createDirectory(domain_name) + '/'
 			self.info['directory-path'] = dir_path
-			print(dir_path)
 			dumpJSONData(self.info, dir_path+'variables.json')
-		# We have now populated the object with basic data for further work
 
 
 if __name__ == "__main__":
 	try:		
 		domain_name = sys.argv[1]
 		a = Application(domain_name)
-		print(a.info, a.resume)
+		#print(a.info, a.resume)
 		if not a.resume:
-			print("Process Stopped. Please check your input")
+			print("Domain Not Found")
+			exit()
+		# Starting the sub-domain enum
+		print("Domain Found")
+		print("Starting Sub-Domain Enum")
+		subdomains = fetchSubDomains(domain_name) + [domain_name]
+		print(subdomains)
 		
 	except IndexError:
 		if len(sys.argv) < 2:

@@ -24,7 +24,7 @@ def dumpJSONData(json_data, file_path="variables.json"):
 	It will replace any existing file with the updated content
 	For custom uses, provide the file_path with the complete path
 	"""
-	print(file_path)
+	#print(file_path)
 	with open(file_path, 'w') as file:
 		#print("Data is being uploaded successfully")
 		json.dump(json_data, file)
