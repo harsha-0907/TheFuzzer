@@ -8,6 +8,7 @@ from packages import *
 from initProgram import *
 from dnsresolution import *
 from subDomainEnum import *
+from serviceEnumeration import *
 
 class Application():
 	def __init__(self, domain_name):
@@ -25,7 +26,7 @@ class Application():
 			self.info['variables-path'] = dir_path + 'variables.json'
 			dumpJSONData(self.info, dir_path+'variables.json')
 
-	def dumpJSONData(self):
+	def dumpData(self):
 		"""To update the json in the variables.json file"""
 		try:
 			dumpJSONData(self.info, self.info['variables-path'])
@@ -51,10 +52,14 @@ if __name__ == "__main__":
 		print("Domain Found")
 		print("Starting Sub-Domain Enum")
 		subdomains = fetchSubDomains(domain_name) + [domain_name]
+		print("Sub-Domain Enumeration Complete")
 		a.info['sub-domains'] = subdomains
-		print(a.info)
-		a.dumpJSONData()
-
+		a.dumpData()
+		# Service Enumeration using nmap
+		print("Starting Service-Version Enumeration")
+		a.info['service-enum'] = serviceVersionEnumeration(subdomains)
+		#print(res, type(res))
+		a.dumpData()
 		
 	except IndexError:
 		if len(sys.argv) < 2:

@@ -70,10 +70,5 @@ def readFileToList(file_path="", seperator='\n'):
 		return []
 
 
-#dumpJSONData({'directory_path': createDirectory()})
-#print(readJSONData())
-#createDirectory('hi')
 
 
-#res = readFileToList("domains.txt")
-#print(res)
