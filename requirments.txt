@@ -1,1 +1,7 @@
-#Python Requirments
+# Project Requirements
+python-nmap
+dnspython
+pytest-shutil
+bs4
+dotenv
+python-owasp-zap-v2.4

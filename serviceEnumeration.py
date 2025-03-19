@@ -3,30 +3,19 @@
 from packages import *
 
 
-def nmapEnumeration(domain="", directory_path="", data_queue=[], attempts=1):
+def nmapEnumeration(domain="", directory_path="", data_queue=[]):
 	"""This is a function that will be run parallely. So here data will be stored in the queues that support multi-processing"""
 	if domain == "" or domain == " ":
-		print("Empty")
+		print("Domain Empty")
 		return ""
 	# We will formulate the comand and execute it
 	try:
-		res = subprocess.run(["nmap", "-sV", domain, "-oN", f"{directory_path}nmap_{domain}.txt"], capture_output=True)
-		# If the stderr is None, then flush the stdout
-		if not res.stderr:	
-			#return res.stdout.decode()
-			data_queue.put((domain, res.stdout.decode()))
-			return True 
-		
-		return False	
-	
-		# In case of any error attempt another t
-	except subprocess.CalledProcessError:
-		if attempts > 3:
-			return False
-		return performNmapVersionEnumeration(domain, directory_path, attempts+1)
-	
+		#res = subprocess.run(["nmap", "-sV", domain, "-oN", f"{directory_path}nmap_{domain}.txt"], capture_output=True)
+		scanner = nmap.PortScanner()
+		res = scanner.scan(hosts=domain, arguments=" --T2 -sV")
+		data_queue.put((domain, res['scan']))
 	except Exception as e:
-		return False
+		data_queue.put((domain, None))
 
 
 def serviceVersionEnumeration(domains=[]):

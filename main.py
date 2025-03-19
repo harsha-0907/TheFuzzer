@@ -7,8 +7,12 @@
 from packages import *
 from initProgram import *
 from dnsresolution import *
-from subDomainEnum import *
+from subDomainEnum import SubDomainEnumerator
 from serviceEnumeration import *
+import json
+import time
+from zapHandler import ZapScanner
+
 
 class Application():
 	def __init__(self, domain_name):
@@ -51,15 +55,40 @@ if __name__ == "__main__":
 		# Starting the sub-domain enum
 		print("Domain Found")
 		print("Starting Sub-Domain Enum")
-		subdomains = fetchSubDomains(domain_name) + [domain_name]
+		subdomains = SubDomainEnumerator(domain_name).fetchSubDomains()
+		print(subdomains)
 		print("Sub-Domain Enumeration Complete")
 		a.info['sub-domains'] = subdomains
 		a.dumpData()
 		# Service Enumeration using nmap
 		print("Starting Service-Version Enumeration")
 		a.info['service-enum'] = serviceVersionEnumeration(subdomains)
-		#print(res, type(res))
 		a.dumpData()
+		print("Starting Active Scan... this might take a lot of time")
+		scanner = ZapScanner()
+		scans = dict()
+		for subdomain in subdomains:
+			scanId = scanner.activeScan(subdomain)
+			scans[subdomain] = scanId
+		
+		# We wait until all the scans are completed
+		while len(scanner.activeScans) > 0:
+			scanner.scanProgress()	# To check if the scan is completed
+			time.sleep(5)
+		
+		results = dict()
+		for domain in subdomains:
+			results[domain] = dict()
+			domain_alerts = scanner.core.get_alerts(baseurl=target, start=0, count=5000)
+			blacklist = [1,2]
+			for alert in domain_alerts:
+				plugin_id = alert['pluginId']
+				if plugin_id in blacklist:
+					continue
+				results[domain] = {"pluginId": plugin_id, "risk": alert["risk"], "url": alert["url"], "description": alert["description"]}
+
+		with open("results.json", 'w', encodin="utf-8") as file:
+			file.write(json.sump(results))
 		
 	except IndexError:
 		if len(sys.argv) < 2:
