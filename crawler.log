@@ -1,0 +1,446 @@
+2025-03-27 12:53:19,117 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 12:53:19,264 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 12:53:19,596 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 12:53:19,597 - Crawler-Log - INFO - Execution Time- 0.3327803611755371
+2025-03-27 12:53:19,597 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 12:53:20,055 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 12:53:20,055 - Crawler-Log - INFO - Execution Time- 0.45832037925720215
+2025-03-27 12:53:20,055 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 12:54:52,960 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 12:54:52,960 - Crawler-Log - INFO - Execution Time- 92.90470838546753
+2025-03-27 12:54:52,960 - Crawler-Log - INFO - Saved all the ursl in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 13:05:57,714 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 13:05:57,776 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 13:05:57,986 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 13:05:57,986 - Crawler-Log - INFO - Execution Time- 0.20972990989685059
+2025-03-27 13:05:57,986 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 13:05:58,503 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 13:05:58,503 - Crawler-Log - INFO - Execution Time- 0.5166690349578857
+2025-03-27 13:05:58,503 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 13:07:59,870 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 13:07:59,870 - Crawler-Log - INFO - Execution Time- 121.36681032180786
+2025-03-27 13:07:59,871 - Crawler-Log - INFO - Saved all the ursl in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:31:11,882 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:32:24,103 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:32:24,165 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:32:24,421 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:32:24,422 - Crawler-Log - INFO - Execution Time- 0.25612950325012207
+2025-03-27 20:32:24,422 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:32:24,918 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:32:24,919 - Crawler-Log - INFO - Execution Time- 0.49627161026000977
+2025-03-27 20:32:24,920 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:35:37,887 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:35:37,913 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:35:38,388 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:35:38,388 - Crawler-Log - INFO - Execution Time- 0.47425150871276855
+2025-03-27 20:35:38,389 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:35:39,102 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:35:39,103 - Crawler-Log - INFO - Execution Time- 0.7134804725646973
+2025-03-27 20:35:39,103 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:35:40,231 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:35:40,231 - Crawler-Log - INFO - Execution Time- 1.1279146671295166
+2025-03-27 20:35:40,244 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:41,942 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:41,970 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:42,205 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:42,205 - Crawler-Log - INFO - Execution Time- 0.23540854454040527
+2025-03-27 20:36:42,205 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:42,843 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:42,843 - Crawler-Log - INFO - Execution Time- 0.6372041702270508
+2025-03-27 20:36:42,843 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:42,997 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:42,997 - Crawler-Log - INFO - Execution Time- 0.15372180938720703
+2025-03-27 20:36:42,998 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:43,421 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:43,421 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:43,422 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:43,422 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - Execution Time- 0.40733885765075684
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - Execution Time- 0.40733885765075684
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:43,830 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:44,504 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:44,504 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:44,504 - Crawler-Log - INFO - Execution Time- 0.6735787391662598
+2025-03-27 20:36:44,504 - Crawler-Log - INFO - Execution Time- 0.6735787391662598
+2025-03-27 20:36:44,505 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:44,505 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:44,660 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:44,660 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:44,660 - Crawler-Log - INFO - Execution Time- 0.15532565116882324
+2025-03-27 20:36:44,660 - Crawler-Log - INFO - Execution Time- 0.15532565116882324
+2025-03-27 20:36:44,661 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:44,661 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:44,973 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:44,973 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:44,973 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:44,974 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:44,974 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:44,974 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:45,420 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:45,420 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:45,420 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Execution Time- 0.44565653800964355
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Execution Time- 0.44565653800964355
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Execution Time- 0.44565653800964355
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:45,424 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - Execution Time- 3.241605520248413
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - Execution Time- 3.241605520248413
+2025-03-27 20:36:48,666 - Crawler-Log - INFO - Execution Time- 3.241605520248413
+2025-03-27 20:36:48,667 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:48,667 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:48,667 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 20:36:48,841 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,841 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,841 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:48,842 - Crawler-Log - INFO - Execution Time- 0.17398738861083984
+2025-03-27 20:36:48,842 - Crawler-Log - INFO - Execution Time- 0.17398738861083984
+2025-03-27 20:36:48,842 - Crawler-Log - INFO - Execution Time- 0.17398738861083984
+2025-03-27 20:36:48,843 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:48,843 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:48,843 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 20:36:49,246 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:49,246 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:49,246 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:49,246 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 20:36:49,247 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:49,247 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:49,247 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:49,247 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 20:36:49,442 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:49,442 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:49,442 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:49,442 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Execution Time- 0.19579339027404785
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Execution Time- 0.19579339027404785
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Execution Time- 0.19579339027404785
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Execution Time- 0.19579339027404785
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 20:36:49,443 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Execution Time- 2089.549779653549
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Execution Time- 2089.549779653549
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Execution Time- 2089.549779653549
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Execution Time- 2089.549779653549
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:38,993 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - Execution Time- 0.18420886993408203
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - Execution Time- 0.18420886993408203
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - Execution Time- 0.18420886993408203
+2025-03-27 21:11:39,177 - Crawler-Log - INFO - Execution Time- 0.18420886993408203
+2025-03-27 21:11:39,178 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:39,178 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:39,178 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:39,178 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:39,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:39,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:39,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:39,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:39,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:39,629 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:39,629 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:39,629 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:39,629 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:39,629 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Execution Time- 0.18026494979858398
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Execution Time- 0.18026494979858398
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Execution Time- 0.18026494979858398
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Execution Time- 0.18026494979858398
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Execution Time- 0.18026494979858398
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:39,809 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:40,162 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,162 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,162 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,162 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,162 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Execution Time- 0.3528003692626953
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Execution Time- 0.3528003692626953
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Execution Time- 0.3528003692626953
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Execution Time- 0.3528003692626953
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Execution Time- 0.3528003692626953
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:40,163 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - Execution Time- 0.127960205078125
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - Execution Time- 0.127960205078125
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - Execution Time- 0.127960205078125
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - Execution Time- 0.127960205078125
+2025-03-27 21:11:40,291 - Crawler-Log - INFO - Execution Time- 0.127960205078125
+2025-03-27 21:11:40,293 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:40,293 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:40,293 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:40,293 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:40,293 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,918 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:40,919 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Execution Time- 0.21953892707824707
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,139 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Execution Time- 0.42342042922973633
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:11:41,563 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,462 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,463 - Crawler-Log - INFO - Execution Time- 261.8993217945099
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:03,466 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,131 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,132 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,366 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Execution Time- 0.23408722877502441
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:04,367 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Execution Time- 0.822540283203125
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,190 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Execution Time- 0.23668575286865234
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,427 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:05,838 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Execution Time- 0.25545263290405273
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,094 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Execution Time- 0.5716865062713623
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:16:06,666 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:17:41,625 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:17:41,634 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:17:43,251 - Crawler-Log - INFO - Document Dump Successful
+2025-03-27 21:17:43,251 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 1 - New - 1
+2025-03-27 21:17:43,251 - Crawler-Log - INFO - Execution Time- 1.6180839538574219
+2025-03-27 21:17:43,251 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:17:44,467 - Crawler-Log - INFO - Document Dump Successful
+2025-03-27 21:17:44,468 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 96 - New - 96
+2025-03-27 21:17:44,468 - Crawler-Log - INFO - Execution Time- 1.2162775993347168
+2025-03-27 21:17:44,468 - Crawler-Log - INFO - Crawling Webpages
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           2025-03-27 21:30:09,648 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:30:09,682 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:30:09,977 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:30:09,977 - Crawler-Log - INFO - Execution Time- 0.294370174407959
+2025-03-27 21:30:09,977 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:30:10,770 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:30:10,770 - Crawler-Log - INFO - Execution Time- 0.7925724983215332
+2025-03-27 21:30:10,770 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:31:43,355 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:31:43,355 - Crawler-Log - INFO - Execution Time- 92.58453702926636
+2025-03-27 21:31:43,367 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json
+2025-03-27 21:32:16,941 - Crawler-Log - DEBUG - The Server is Active.
+2025-03-27 21:32:16,948 - Crawler-Log - INFO - Scanning the Robots.txt
+2025-03-27 21:32:17,069 - Crawler-Log - INFO - CrawlerInRobots - Total Urls Found: 0 - New - 0
+2025-03-27 21:32:17,069 - Crawler-Log - INFO - Execution Time- 0.12092471122741699
+2025-03-27 21:32:17,069 - Crawler-Log - INFO - Crawling Sitemap
+2025-03-27 21:32:17,658 - Crawler-Log - INFO - CrawlerInSitemap - Total Urls Found: 0 - New - 0
+2025-03-27 21:32:17,658 - Crawler-Log - INFO - Execution Time- 0.5888619422912598
+2025-03-27 21:32:17,658 - Crawler-Log - INFO - Crawling Webpages
+2025-03-27 21:32:40,765 - Crawler-Log - INFO - CrawlerInWebpage - Total Urls Found: 0 - New - 0
+2025-03-27 21:32:40,765 - Crawler-Log - INFO - Execution Time- 23.106507778167725
+2025-03-27 21:32:40,765 - Crawler-Log - INFO - Saved all the urls in the file : /home/psych_scientist/harsha/projects/TheFuzzer/grawler/results/total-urls.json

@@ -5,3 +5,8 @@ pytest-shutil
 bs4
 dotenv
 python-owasp-zap-v2.4
+regex
+lxml
+importlib
+logging
+python-dotenv

@@ -231,5 +231,3 @@ class SubDomainEnumerator():
             file.write("\n".join(_subdomain for _subdomain in self._activeSubdomains))
         logging.info(f"Subdomains can be found in {os.getcwd()}/{self._domain}.{os.getenv('file_extension')}")
 
-enumerator = SubDomainEnumerator("srinivasuniversity.edu.in")
-print(enumerator.fetchSubDomains())

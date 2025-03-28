@@ -8,6 +8,7 @@ from packages import *
 from initProgram import *
 from dnsresolution import *
 from subDomainEnum import SubDomainEnumerator
+from grawler.crawler import Crawler
 from serviceEnumeration import *
 import json
 import time
@@ -42,10 +43,81 @@ class Application():
 		"""To update the self.info with any new data"""
 		for i in data:
 			self.info[i] = data[i]
+	
+	def startup():
+		""" Here the process of sub-domain enum and service-enum must be completed.
+			The only part that should remain will be using the Crawler & ZAP testing that will be done in the main method """
+			
+			
+
+class VulnScanner:
+	def __init__(self, domain):
+		self.domain_name = domain
+	
+	def startup(self):
+		""" Here the process of sub-domain enum and service-enum must be completed.
+			The only part that should remain will be using the Crawler & ZAP testing that will be done in the main method """
+		try:
+			self.app = Application(self.domain_name)
+			if not  self.app.resume:
+				print("Domain Not Found")
+				exit()
+			# Starting the sub-domain enum
+			print("Domain Found")
+			print("Starting Sub-Domain Enum")
+			subdomains = SubDomainEnumerator(self.domain_name).fetchSubDomains()
+			self.subdomains = subdomains
+			print("Sub-Domain Enumeration is Complete")
+			print(f"Total number of fetched Sub-domains : {len(subdomains)}")
+			self.app.info['sub-domains'] = subdomains
+			self.app.dumpData()
+			
+			# Service Enumeration begins here
+					
+			print("Starting Service-Version Enumeration")
+			self.app.info['service-enum'] = serviceVersionEnumeration(subdomains)
+			self.app.dumpData()
+			print("Service Enumeration complete")
+
+		except Exception as _e:
+			print("An Error occured while starting up the scanner")
+			print(f"Details of the error {_e}")
+			exit()
+		
+	def scan(self):
+		self.startup()
+		# Running the crawler
+		print("Crawling the sub-domains")
+		self.app.info["crawled-urls"] = dict()
+		for subdomain in self.subdomains:
+			crawler = Crawler(domain=subdomain)
+			crawled_urls = crawler.crawl()
+			self.app.info["crawled-urls"][subdomain] = crawled_urls
+		print("Crawler-Complete")
+		# Running the scanner
+		
+		self.activeResults = {}
+		self.scanner = ZapScanner()
+		for subdomain in self.app.info["crawled-urls"]:
+			# Let us cap the number of urls that are going to be tested to 5
+			subdomain_urls = self.app.info["crawled-urls"][subdomain][:5]
+			scanner = ZapScanner()
+			scan_results = scanner.scan_urls(subdomain_urls)
+			self.activeResults[subdomain] = scan_results
+			print(f"Results for {subdomain} : ", scan_results, end="\n")
+		
+		self.app.info["scan-results"] = self.activeResults
+		self.app.dumpData()
 		
 
 if __name__ == "__main__":
-	try:		
+	try:
+		scanner = VulnScanner(domain=sys.argv[1])
+		results = {"scan-results": scanner.scan()}
+		
+		with open("scan-results.json", 'w') as file:
+			file.write(json.dumps(results))
+		"""
 		domain_name = sys.argv[1]
 		a = Application(domain_name)
 		#print(a.info, a.resume)
@@ -89,7 +161,7 @@ if __name__ == "__main__":
 
 		with open("results.json", 'w', encodin="utf-8") as file:
 			file.write(json.sump(results))
-		
+		"""		
 	except IndexError:
 		if len(sys.argv) < 2:
 			print("Domain Name is Empty!!!")
